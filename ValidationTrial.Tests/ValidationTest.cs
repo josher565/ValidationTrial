@@ -29,7 +29,7 @@ namespace ValidationTrial.Tests
             
             //arrange
             var fame = TyraTheModelBuilder.Build();
-            fame.ModelName = String.Empty;
+            fame.ModelName = "Candice Swanepoel";
             var validator = new MyValidator();
 
             //act
